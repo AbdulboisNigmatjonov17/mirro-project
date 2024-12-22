@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.Container{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+a:hover {
+    color: #3A5F56;
+}
+.ulPart ul li a{
+    color: #fff;
+}
+.ulPart ul li a:hover{
+    color: #7e7e7e;
+}
